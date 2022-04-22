@@ -1,0 +1,22 @@
+.profail-icon{
+    height: 8rem;
+    box-shadow: 0 3px #E1F5FE;
+    border-top: 1px solid rgba(137, 199, 151, 0.466);
+    padding-top: 20px;
+    
+}
+.icon-text{
+    text-align: center;
+}
+.icon-text:hover{
+    color: aqua;
+}
+
+.icon{
+    width: 30px;
+    height: 20px;
+}
+
+.icon:hover{
+    color: aqua;
+}

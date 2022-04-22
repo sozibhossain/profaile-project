@@ -1,0 +1,74 @@
+.banner-section{
+    margin: 0 auto;
+    position: relative;
+}
+
+.banner{
+    width: 1150px;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 10px 10px 0 0;
+    background-size: cover;
+    background-position: top;
+}
+
+.profail-banner-icon{
+    position: absolute;
+    text-align: right;
+    right: 10px;
+    bottom: 15px;
+    color: #067BAF;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #fff;
+}
+
+.profail-section{
+    margin: 0 auto;
+    position: relative;
+}
+
+.banner-profail_icon{
+    position: absolute;
+    text-align: center;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #fff;
+    left: 54%;
+    color: #067BAF;
+    right: 50%;
+}
+
+
+.banner-profail{
+    position: absolute;
+    left: 42%;
+    right: 50%;
+    width: 170px;
+    height: 170px;
+    margin-top: -100px;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.banner-text{
+    text-align: center;
+    padding-top: 70px;
+}
+
+@media(max-width: 600px){
+    .banner{
+        width: 350px;
+        height: 100px;
+    }
+
+    .banner-profail{
+        width: 100px;
+        height: 100px;
+        margin-top: -50px;
+        left: 35%;
+        right: 50%;
+    }
+}

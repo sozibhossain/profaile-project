@@ -1,0 +1,11 @@
+.galleryBg{
+    background-image: url(../../../image/img2.jpg);
+    height: 200px;
+    width: 300px;
+
+}
+
+.gallery-text{
+    align-items: center;
+    color: #fff;
+}
