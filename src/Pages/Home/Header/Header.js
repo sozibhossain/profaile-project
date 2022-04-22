@@ -17,17 +17,16 @@ const Header = () => {
                     <span></span>
                 </label>
             
-                    
-              
-
-
-                <nav className='user_nav'>
                     <form action="#" className='search'>
                         <input type="text" className='search_input' placeholder='Search'/>
                         <button className='search_button'>
                         <FontAwesomeIcon icon={faSearch}  className='search_icon'/>
                         </button>
                     </form>
+              
+
+
+                <nav className='user_nav'>
                     <div className='user-nav-user'>
                         <img src={profail} alt="profail img" className='user-nav_user-photo'/>
                         <span className='user-nav_user-name'>sozib &nu;</span>
