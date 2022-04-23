@@ -79,6 +79,14 @@
     margin-right: 35px;
 }
 
+.user_nav > * {
+    padding: 0 2rem;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
 .user-nav-user{
 
 }
@@ -92,7 +100,6 @@
 .user-nav_user-name{
     justify-content: center;
     align-items: center;
-    margin-right: 2rem;
 }
 
 /* message icon */
@@ -108,7 +115,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 2rem;
 
 }
 

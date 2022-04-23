@@ -58,9 +58,9 @@
     padding-top: 70px;
 }
 
-@media(max-width: 600px){
+@media(max-width: 995px){
     .banner{
-        width: 350px;
+        width: 375px;
         height: 100px;
     }
 
@@ -69,6 +69,11 @@
         height: 100px;
         margin-top: -50px;
         left: 35%;
+        right: 50%;
+    }
+
+    .profail-banner-icon{
+        left: 90%;
         right: 50%;
     }
 }
